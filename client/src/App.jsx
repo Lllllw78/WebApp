@@ -15,7 +15,7 @@ import { AuthContext } from "./authContext/AuthContext";
 
 const App = () => {
   const { user } = useContext(AuthContext);
-  console.log("My change again")
+  console.log("My change again But")
   return (
     <Router>
       <Switch>
