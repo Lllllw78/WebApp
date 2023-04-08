@@ -30,7 +30,7 @@ function App() {
         <Route path="/login">{user ? <Redirect to="/" /> : <Login />}</Route>
         {user && (
           <>
-          {console.log("enter")}
+          {console.log("enter again here")}
             <Topbar />
             <div className="container">
               <Sidebar />
